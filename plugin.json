@@ -1,0 +1,12 @@
+{
+  "name": "jj-tutorial",
+  "version": "1.0.0",
+  "description": "Interactive hands-on tutorial for learning Jujutsu (jj) version control system",
+  "author": "Cassia Scheffer",
+  "commands": [
+    {
+      "name": "learn-jj",
+      "description": "Start or continue the interactive Jujutsu tutorial"
+    }
+  ]
+}
