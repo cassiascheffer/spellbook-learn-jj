@@ -18,7 +18,8 @@ This tutorial covers 8 progressive lessons:
 ## Features
 
 - **Interactive**: Claude guides you through exercises and verifies your work
-- **Hands-on**: Creates a practice repository where you try real commands
+- **Hands-on**: Creates a practice repository (`jj-practice/`) where you try real commands
+- **Safe workspace**: The tutorial creates a new working directory for practice - your current work is never touched
 - **Flexible**: Start fresh or continue from where you left off
 - **Question-friendly**: Ask questions anytime during the tutorial
 - **Practical**: Uses realistic scenarios and actual command output
@@ -35,11 +36,12 @@ This tutorial covers 8 progressive lessons:
 
 ## Installation
 
-### Option 1: Install from Claude Code Marketplace
+### Option 1: Install from Spellbook Marketplace
+
+This plugin is available in the [Spellbook Marketplace](https://github.com/cassiascheffer/spellbook-marketplace):
 
 ```bash
-# Once published to the marketplace
-claude-code plugins install jj-tutorial
+claude-code plugins install cassiascheffer/spellbook-marketplace/learn-jj
 ```
 
 ### Option 2: Install Locally
@@ -73,8 +75,10 @@ In any directory, run:
 
 Claude will:
 1. Check if you're starting fresh or continuing
-2. Set up a practice repository (`jj-practice/`)
+2. Create a new working directory with a practice repository (`jj-practice/`)
 3. Guide you through the lessons interactively
+
+**Note**: The tutorial creates a separate `jj-practice/` directory for you to work in. Your current project and files are never modified.
 
 ### During the Tutorial
 
